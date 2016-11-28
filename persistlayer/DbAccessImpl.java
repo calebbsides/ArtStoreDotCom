@@ -1,4 +1,4 @@
-package edu.uga.cs4300.persistlayer;
+package persistlayer;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -6,7 +6,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class DbAccessImpl extends DbAccessConfiguration implements DbAccessInterface {
+public class DbAccessImpl extends DbAccessConfig implements DbAccessInterface {
 
 	Statement state = null;
 	
